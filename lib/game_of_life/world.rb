@@ -10,11 +10,7 @@ module GameOfLife
     end
 
     def move_to_next_generation
-      if @cell_grid == [[DEAD, DEAD, DEAD], [ALIVE, ALIVE, ALIVE], [DEAD, DEAD, DEAD]]
-        [[DEAD, ALIVE, DEAD], [DEAD, ALIVE, DEAD], [DEAD, ALIVE, DEAD]]
-      else
-        [[ALIVE, DEAD, DEAD], [DEAD, DEAD, DEAD], [DEAD, DEAD, ALIVE]]
-      end
+      @cell_grid.each_with_index { |, | . }
     end
   end
 end

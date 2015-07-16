@@ -23,13 +23,13 @@ Design The World can be represented by a grid. The people inside this world can 
 To use this project as a codebase simply clone the project to your local folder. Use the following steps:
 
 Open the Terminal
-...
+'''   
 type: *mkdir* desired_directory
 
 cd desired_directory
 
 *git pull* https://github.com/aditya-sanghi/game-of-life-16jul.git
-...
+'''
 
 #Gems and Dependencies
 
